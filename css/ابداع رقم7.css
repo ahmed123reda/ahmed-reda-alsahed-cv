@@ -1,0 +1,1814 @@
+
+.row
+{
+    margin:0 !important;
+    padding: 0
+}
+::-webkit-scrollbar {
+    width:3px ;
+    background:#343a40
+}
+/* ------------------ start firest part home of wep sit ------------------- */
+.home
+{
+    height:100vh;
+    width:100%;
+    background-image:url('../img/hero-bg.jpg');
+    background-size:cover;
+    position:relative;
+  
+}
+.home .back
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0,0,0,0.3);
+    height: 100%;
+}
+.home .child1
+{
+    text-align: center;
+    width: 100%;
+}
+.home .child1 h1
+{
+    color:#fff;
+    font-family:serif;
+    font-size:44px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow:7px 9px 5px #222
+}
+.home .child1 p
+{
+    font-size: 16px;
+    font-weight:560;
+    color:#eee;
+    width:50%;
+    margin: auto;
+    font-family: "Open Sans";
+    font-style:italic
+}
+.home .child1 h3
+{
+    color:white;
+    font-size:35px;
+    
+    
+}
+.home .child1 h3 span
+{ 
+    border-bottom:3px solid #149ddd;
+    padding-bottom:8px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.home .child1 a
+{
+    display: block;
+    background:rgba(255,255,255,0.5);
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    color:gray;
+    margin: auto;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 40px;
+    left: 50%
+}
+.home .child1 a i
+{
+    transition: 0.5s;
+    animation:dowm 0.5s infinite ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes dowm
+{
+    from
+    {
+        margin-top: 0;
+    }
+    to
+    {
+        margin-top: 18px
+    }
+}
+
+.home .icon input
+{
+    display: none
+}
+.home .icon input:checked ~ label i
+{
+    display: none
+}
+.home .icon input:checked ~ label::before
+{
+    content:"\f00d";
+    font-family: 'fontAwesome';
+    font-size:20px;
+    color:#149ddd;
+    cursor: pointer;
+    position: fixed;
+    top:25px;
+    right:25px;
+    background: #111323;
+    border:1.5px solid #000;
+    border-radius: 4px;
+    padding: 1px 12px;
+
+    
+}
+
+.home .icon label
+{
+    position: fixed;
+    right: 25px;
+    top:25px;
+    z-index: 10
+}
+.home .icon label i
+{
+    cursor: pointer;
+    color:#149ddd;
+    font-size:20px;
+    padding: 6px 10px;
+    background: #111323;
+    border:1.5px solid #000;
+    border-radius: 4px
+}
+.home .icon aside
+{
+    position: fixed;
+    left: 0;
+    top:0;
+    bottom: 0;
+    width: 300px;
+    background: #040B14;
+    transition: 0.5s;
+    height: 100vh;
+    padding:15px 40px;
+    overflow: auto;
+    z-index: 10
+}
+.home .icon aside .up .img
+{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    background:#2C2F3F;
+    margin: auto;
+    position: relative;
+    margin-bottom: 15px
+}
+.home .icon aside .up .img .back5
+{
+    position: absolute;
+    left: 15px;
+    top:15px;
+    bottom: 15px;
+    right:15px;
+    border:2px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+    animation: widthh infinite 3s ease-in-out;
+    filter:blur(1px);
+    animation-direction:normal
+}
+@keyframes widthh
+{
+    from
+    {
+    left: 15px;
+    top:15px;
+    bottom: 15px;
+    right:15px;
+    }
+    to
+    {
+    left: 0px;
+    top:0px;
+    bottom: 0px;
+    right:0px;
+    }
+}
+.home .icon aside .up .img img
+{
+    position: absolute;
+    left: 15px;
+    top:15px;
+    bottom: 15px;
+    right:15px;
+    border-radius: 50%;
+    background: none;
+    width:130px;
+    height: 130px;
+}
+.home .icon aside .up h4
+{
+    font-family:'Poppins';
+    color:white;
+    font-weight: 700;
+}
+.home .icon aside .up i
+{
+    width: 35px;
+    height:35px;
+    text-align: center;
+    line-height: 35px;
+    color:white;
+    font-size:16px;
+    background:#212431;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer
+}
+.home .icon aside .up i:hover{
+    background:#007bff;
+}
+.home .icon aside .center
+{
+    padding:45px 0 0;
+}
+ 
+.home .icon aside .cente ul
+{
+    margin: 0
+}
+.home .icon aside .center li
+{
+    margin-bottom: 24px
+}
+.home .icon aside .center li i
+{
+    color:#6f7180;
+    font-size: 20px;
+    margin-right: 10px
+}
+.home .icon aside .center li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color:#a8a9b4;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-family:'Poppins'
+}
+.home .icon aside .center .activ i
+{
+    color:#149DDD;
+    transition: 0.5s;
+    cursor: pointer
+}
+.home .icon aside .center .activ a
+{
+    color:white
+}
+.home .icon aside .center li:hover a
+{
+    color:white;
+}
+.home .icon aside .center li:hover i
+{
+    color:#149DDD;
+}
+.home .icon aside .down p
+{
+    color:white;
+    font-style: italic;
+    margin: 0
+}
+.home .icon aside .down a
+{
+    text-decoration: none;
+}
+@media(max-width:1200px)
+{
+   .home .icon aside
+{
+    transform: translate(-300px,0)
+} 
+    .home .icon input:checked ~ aside
+{
+    transform: translate(0)
+}
+    
+}
+@media(max-width:756px)
+{
+  .home .child1 h1
+    {
+        font-size:35px
+    }
+      .pairant .child1 p
+    {
+        font-size: 17px
+    }
+      .pairant .child1 h3
+    {
+        font-size:25px
+    }
+
+
+}
+/* ------------------ end firest part home of wep sit ------------------- */
+
+
+/* ------------------ start holder ------------------- */
+.holder
+{
+    width:calc(100% - 300px);
+    margin-left:300px;
+    height: 500px;
+    transition:0.5s ease
+}
+@media(max-width:1200px)
+{
+    .holder
+    {
+        width:100%;
+        margin: 0
+    }
+}
+
+/* ------------------ end holder ------------------- */
+
+
+/* ------------------ start sucand part about of wep sit ------------------- */
+.about
+{
+    padding:60px 20px;
+    overflow: hidden
+}
+.about header h2
+{
+    color:#173b6c;
+    font-size:32px;
+    font-family:'Raleway';
+    font-weight:bolder;
+}
+
+
+
+
+
+
+.about header hr
+{
+    width:6%;
+    height:2px;
+    background:#149ddd;
+    margin-left:0
+}
+.about header p
+{
+    font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:30px
+}
+.about .img-profile
+{
+    background-image:url('../img/profile-img.jpg');
+    background-size:cover;
+    background-position:center center;
+    height: 370px
+}
+.about .info header h2
+{
+    font-size:26px;
+    font-weight: 700;
+    font-family:'Raleway';
+    margin-bottom: 20px
+}
+.about .info header p
+{
+    font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:10px ;
+    font-style: italic;
+}
+.about .info .left-coulam ul
+{
+    margin: 0;
+}
+.about .info .left-coulam ul li
+{
+    margin:10px 0;
+    font-family: "Open Sans";
+    color: #272829;
+    font-size: 17px
+}
+.about .info .left-coulam ul li span
+{
+    font-weight:700;
+    display:inline-block;
+    margin-right: 4px;
+    color:#000;    
+}
+.about .info .left-coulam ul li::before
+{
+    content:"\f105";
+    font-family:'fontAwesome';
+    display:inline-block;
+    color:#149ddd;
+    margin-right:13px;
+    font-size:24px;
+    font-weight:700
+}
+.about .info p
+{
+    font-family:'Open Sans';
+    font-size: 17px;
+    margin-top: 15px
+}
+/* ------------------ end sucand part about of wep sit ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ start thered part Facts wep sit ------------------- */
+.Facts
+{
+    padding: 60px 20px;
+    overflow:hidden;
+    
+}
+.Facts header h2
+{
+    color:#173b6c;
+    font-size:32px;
+    font-family:'Raleway';
+    font-weight:bolder;   
+}
+.Facts header hr
+{
+    width:6%;
+    height:2px;
+    background:#149ddd;
+    margin-left:0    
+}
+.Facts header p
+{
+    font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:40px    
+}
+.Facts .row div .flexes
+{
+    display:flex;
+}
+.Facts .row div .flexes i
+{
+    font-size:45px;
+    margin-top:20px;
+    flex-grow: 1;
+    color:#149ddd
+}
+.Facts .row div .flexes .info
+{
+    
+    flex-grow: 2
+}
+.Facts .row div .flexes .info span
+{
+    font-size:48px;
+    font-weight: 700;
+    color:#050d18;
+    margin-bottom: 0
+}
+.Facts .row div .flexes .info h5
+{
+    font-family: "Raleway";
+    font-weight:bolder;
+    color:#122f57;
+    font-size: 14px;
+    margin-bottom: 0
+}
+.Facts .row div .flexes .info p
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #122f57;  
+}
+/* ------------------ end thered part Facts wep sit ------------------- */
+
+
+
+
+
+
+
+/* ------------------ start forth part skils wep sit ------------------- */
+.skils
+{
+    padding:60px 20px;
+    background:#f5f8fd;
+    overflow:hidden
+}
+.skils header h2
+{
+    color:#173b6c;
+    font-size:32px;
+    font-family:'Raleway';
+    font-weight:bolder; 
+    position:relative;
+    margin-bottom: 30px;
+    font-weight: 900
+}
+.skils header h2::after
+{
+    content:"";
+    position:absolute;
+    top:calc(100% + 10px);
+    width: 70px;
+    height:3px;
+    background:#149ddd;
+    left: 0;
+    margin-bottom: 700px
+}
+.skils header p
+{
+    font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:40px    
+}
+.skils .row > div .progres ul
+{
+    margin:0
+}
+.skils .row > div .progres ul li div span
+{
+    float: right
+}
+.skils .row > div .progres ul li 
+{
+    margin-bottom:30px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    font-size:14px;
+    position: relative
+}
+.skils .row > div .progres ul li::before
+{
+    content:"";
+    position:absolute;
+    background:#dce8f8;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    width:100%;
+}
+.skils .row > div .progres ul .HTML::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation:HTML 0.8s ease-in-out forwards
+
+}
+.skils .row > div .progres ul .HTML5::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation:HTML5 0.8s ease-in-out forwards
+
+}
+.skils .row > div .progres ul .CSS::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation:CSS 0.8s ease-in-out forwards
+
+}
+.skils .row > div .progres ul .CSS3::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation:CSS 0.8s ease-in-out forwards
+}
+
+.skils .row > div .progres ul .javascripr::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: JAVASCRIPR 0.8s linear forwards
+
+}
+
+.skils .row > div .progres ul .js_bom::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: js_bom 0.8s linear forwards
+
+}
+.skils .row > div .progres ul .js_dom::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: js_dom 0.8s linear forwards
+
+}
+.skils .row > div .progres ul .es6::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: es6 0.8s linear forwards
+
+}
+.skils .row > div .progres ul .vue_js::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: vue_js 0.8s linear forwards
+
+}
+.skils .row > div .progres ul .sass::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: sass 0.8s linear forwards
+
+}
+.skils .row > div .progres ul .ajax::after
+{
+    content:"";
+    position:absolute;
+    background:#48addb;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: ajax 0.8s linear forwards;
+}
+.skils .row > div .progres ul .json::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: json 0.8s linear forwards
+
+}
+
+.skils .row > div .progres ul .php::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: PHP 0.8s linear forwards
+}
+
+.skils .row > div .progres ul .mysql::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: mysql 0.8s linear forwards
+}
+.skils .row > div .progres ul .laravel::after
+{
+    content:"";
+    position:absolute;
+    background:#149ddd;
+    height:10px;
+    top:calc(100% + 10px);
+    left:0;
+    animation: laravel 0.8s linear forwards
+}
+@keyframes HTML
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:95%
+    }
+}
+@keyframes HTML5
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:95%
+    }
+}
+@keyframes CSS
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:93%
+    }
+}
+@keyframes CSS3
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:93%
+    }
+}
+@keyframes JAVASCRIPR
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:75%
+    }
+}
+@keyframes js_bom
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:85%
+    }
+}
+@keyframes js_dom
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:80%
+    }
+}
+@keyframes vue_js
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:80%
+    }
+}
+@keyframes sass
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:86%
+    }
+}
+@keyframes ajax
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:80%
+    }
+}
+@keyframes json
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:80%
+    }
+}
+@keyframes PHP
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:70%
+    }
+}
+@keyframes es6
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:75%
+    }
+}
+@keyframes mysql
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:80%
+    }
+}
+@keyframes laravel
+{
+    from
+    {
+        width:0;
+    }
+    to
+    {
+        width:50%
+    }
+}
+/* ------------------ end forth part skils wep sit ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ start fifth part resume wep sit ------------------- */
+.resume
+{
+    padding:60px 20px;
+    background:#fff;
+    overflow:hidden;
+}
+.resume header h2
+{
+    color:#173b6c;
+    font-size:32px;
+    font-family:'Raleway';
+    font-weight:bolder;    
+}
+.resume header hr
+{
+    width:6%;
+    height:3px;
+    margin-left:0;
+    background:#0F71A1
+}
+.resume header p
+{
+   font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:40px    
+}
+.resume .row > div 
+{
+    padding: 0
+}
+.resume .row > div .pairant1 h2,
+.resume .row > div .pairant2 h2,
+.resume .row .pairant5 h3
+{
+    font-family: "Raleway";
+    font-size:22px;
+    color: #050d18;
+    font-weight:600;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+}
+.resume .row > div .pairant1 .child1,
+.resume .row > div .pairant1 .child2,
+.resume .row > div .pairant2 .child3,
+.resume .row > div .pairant5 .child5
+{
+    padding: 0 20px;
+    border-left:2px solid #1f5297
+}
+.resume .row > div .pairant1 .child1 h3,
+.resume .row > div .pairant1 .child2 h3,
+.resume .row > div .pairant2 .child3 h3,
+.resume .row .pairant5 .child5 > h3
+
+{
+    color:#050d18;
+    font-family: "Poppins";
+    font-size:15px;
+    font-weight: 750;
+    position: relative
+    
+}
+.resume .row .pairant5 .child5 ul li a 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+.resume .row > div .pairant1 .child1 h3::before,
+.resume .row > div .pairant1 .child2 h3::before,
+.resume .row > div .pairant2 .child3 h3::before,
+.resume .row .pairant5 .child5 > h3::before
+{
+    content: "";
+    position: absolute;
+    left:-30px;
+    top:0;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background:white;
+    border:2px solid #1f5297
+}
+.resume .row > div .pairant1 .child1 p
+{
+    font-style:italic;
+    color:#272829;
+    font-family: 'Open Sans';
+    font-size:16px;
+    line-height:1.8
+    
+}
+
+.resume .row > div .pairant1 .child1 ul li,
+.resume .row > div .pairant2 .child3 ul li
+{
+    font-size:16px;
+    font-family: 'Open Sans';
+    margin-top:10px;
+    list-style:disc;
+    margin-left: 20px
+}
+.resume .row > div .pairant1 .child2 span,
+.resume .row > div .pairant2 .child3 span
+{
+    display:block;
+    padding:3px 0;
+    background:#e4edf9;
+    font-family: "Raleway";
+    width:115px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+.resume .row > div .pairant1 .child2 h6,
+.resume .row > div .pairant2 .child3 h6
+{
+    font-style: italic;
+    margin-bottom: 20px
+}
+.resume .row > div .pairant1 .child2 p
+{
+    font-family: 'Open Sans';
+    line-height: 1.7
+}
+/* ------------------ end fifth part resume wep sit ------------------- */
+
+
+
+
+
+
+
+/* ------------------ start sex part portofolio wep sit ------------------- */
+.portofolio
+{
+    padding: 60px 20px;
+    background:#f5f8fd;
+    overflow: hidden;
+}
+.portofolio header h2
+{
+    color:#173b6c;
+    font-size:32px;
+    font-family:'Raleway';
+    font-weight:bolder;    
+}
+.portofolio header hr
+{
+    width:6%;
+    height:3px;
+    margin-left:0;
+    background:#0F71A1
+}
+.portofolio header p
+{
+   font-family: 'Open Sans', sans-serif;
+    color:#272829;
+    margin-bottom:40px    
+}
+.portofolio ul
+{
+    width:320px;
+    margin: auto;
+    background:white;
+    border-radius: 17px;
+    padding:7px 0;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 45px
+}
+.portofolio ul li
+{
+    display: inline-block;
+    font-size:17px;
+    font-weight:500;
+    text-transform: capitalize;
+   font-family: 'Open Sans', sans-serif;
+    margin:  0 9px;
+    transition: 0.3s;
+    cursor:pointer
+}
+.portofolio ul li:hover 
+{
+    color:#149ddd;
+}
+.portofolio ul li:first-child{
+    color:#149ddd;
+}
+
+.portofolio .row > div .imaq
+{
+    background-image:url('../img/4-45251_png-download-desktop-vector-mockup-desktop-mockup-no.png');
+    background-size:cover;
+    background-position: center center;
+    height:330px;
+    border-radius: 12px;
+    overflow: hidden !important;
+    position: relative;
+    margin-bottom: 30px
+}
+.portofolio .row > div .imaq .wepsit-photo
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:243px;
+    overflow: hidden;
+    border:12px solid #111;
+    box-sizing: border-box;
+}
+.portofolio .row > div .imaq .wepsit-photo img
+{
+    position: absolute;
+    width:100%;
+    z-index: 1;
+    
+}
+.portofolio .row > div:first-child .imaq:hover .wepsit-photo  img
+{
+    transition: 30s linear;
+    transform:translateY(-2880px);
+}
+
+.portofolio .row > div:nth-child(7) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-2800px;
+    transition: 30s linear;
+}
+
+.portofolio .row > div:nth-child(8) .imaq:hover .wepsit-photo  img
+{
+    transition: 30s linear;
+    margin-top:-2100px;
+}
+
+.portofolio .row > div:nth-child(6) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-7400px;
+    transition: 30s linear;
+
+}
+
+.portofolio .row > div:nth-child(5) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-5110px;
+    transition: 30s linear !important;
+}
+.portofolio .row > div:nth-child(4) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-1660px;
+    transition: 27s linear;
+}
+.portofolio .row > div:nth-child(3) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-2660px;
+    transition: 27s linear;
+}.portofolio .row > div:nth-child(2) .imaq:hover .wepsit-photo  img
+{
+    margin-top:-1850px;
+    transition: 27s linear;
+}
+
+.portofolio .row > div .imaq .wepsit-photo .befor-show
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+    padding:17px 20px;
+    transition: 1s;
+    transform: translate(0,243px);
+}
+.portofolio .row > div .imaq > span
+{
+    position: absolute;
+    right:-32px;
+    top:20px;
+    color:white;
+    padding: 5px 55px;
+    background:red;
+    font-weight: 650;
+   font-family: 'Open Sans', sans-serif;
+    transform: rotate(45deg);
+    z-index: 3;
+    box-shadow: 0 0 15px black 
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show h4
+{
+    color:#ffffff;
+   font-family: 'Open Sans', sans-serif;
+    margin-bottom: 12px;
+    text-transform: capitalize
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show button
+{
+    display: inline-block;
+    color:white;
+    background-color: transparent;
+    width:120px;
+    border:1px solid #fff;
+    padding:5px 0;
+    font-weight: 700;
+    margin-bottom: 12px;
+   font-family: 'Open Sans', sans-serif;
+    transition: 0.4s
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show button:first-of-type
+{
+    background:#3f51b5;
+    margin-right:10px
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show button:hover
+{
+    background:transparent;
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show button
+{
+    background:#ff2717
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show p
+{
+   font-family: 'Open Sans', sans-serif;
+    color:white;
+    margin-bottom: 10px;
+    font-style: italic
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show i
+{
+    color:orange;
+    margin-right: 10px
+}
+.portofolio .row > div .imaq .wepsit-photo .befor-show span
+{
+    color:white;
+    font-weight: 550
+}
+.portofolio .row > div .imaq:hover .wepsit-photo .befor-show 
+{
+    transform: translate(0,0px);
+    transition-delay: 27s
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ end sex part portofolio wep sit ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ end sevsn part servaces wep sit ------------------- */
+.Services
+{
+    padding:60px 20px;
+    overflow:hidden;
+}
+.Services header h2
+{
+    font-weight:700;
+    font-family: "Raleway";
+    font-size:32px;
+    color:#173b6c;
+}
+.Services header hr
+{
+    margin-left:0;
+    width:6%;
+    height:3px;
+    background:#149ddd
+}
+.Services header p
+{
+    font-family: 'Open Sans';
+    font-size:17px;
+    margin-bottom: 30px
+}
+.Services .row > div
+{
+    padding-top:50px;
+}
+.Services .row > div .pairant
+{
+    position:relative;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    min-height:200px
+}
+.Services .row > div .pairant .over
+{
+    background:rgba(255,255,255,1);
+    width:100%;
+    padding: 15% 6% 2%;
+    transition: 0.5s;
+    min-height:215px
+}
+.Services .row > div:hover .pairant .over 
+{
+    background:rgba(255,255,255,0.7);
+}
+
+.Services .row > div .pairant .over i
+{
+    width:65px;
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background:#149ddd;
+    border-radius: 50%;
+    font-size:25px;
+    position: absolute;
+    top:-32.5px;
+    left:calc(50% - 32.5px);
+    transition: 0.5s
+}
+
+.Services .row > div:hover .pairant .over i
+{
+    width:75px;
+    height:75px;
+    background:white;
+    border:1px solid #149ddd;
+    position: absolute;
+    top:-37.5px;
+    left:calc(50% - 37.5px);
+    color:#149ddd
+}
+
+.Services .row > div .pairant .over h4 a
+{
+     font-family: "Raleway";
+    font-weight: 600;
+    text-decoration: none;
+    color:#343a40;
+    margin-bottom: 12px;
+    display: block;
+    transition: 0.3s
+}
+.Services .row > div .pairant .over h4 a:hover
+{
+    color:#149ddd;
+}
+.Services .row > div .pairant .over p
+{
+    font-family: 'Open Sans';
+    font-size:15px
+}
+/* ------------------ end seven part servaces wep sit ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ start eaight part Testimonials wep sit ------------------- */
+.Testimonials
+{
+    padding:60px 20px;
+    background:#f5f8fd;
+    overflow:hidden
+}
+.Testimonials header h2
+{
+    font-weight:700;
+    font-family: "Raleway";
+    font-size:32px;
+    color:#173b6c;
+}
+.Testimonials header hr
+{
+    margin-left:0;
+    width:6%;
+    height:3px;
+    background:#149ddd
+}
+.Testimonials header p
+{
+    font-family: 'Open Sans';
+    font-size:17px;
+    margin-bottom: 30px
+}
+.Testimonials .curosal > div .info
+{
+    padding: 20px;
+    background:white;
+    box-shadow: 0 20px 15px rgba(0,0,0,0.1);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    position: relative
+}
+.Testimonials .curosal > div .info::after
+{
+    content:"";
+    position: absolute;
+    border-top:20px solid white;
+    border-left:20px solid transparent;
+    border-bottom:0px solid green;
+    border-right:20px solid transparent;
+    top:100%;
+    left:calc(50% - 20px);
+}
+.Testimonials .curosal > div .info p
+{
+    font-style: italic;
+    font-size: 17px
+}
+.Testimonials .curosal > div .info p::before
+{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    margin-right: 7px;
+    font-size: 18px;
+    color: #c3e8fa;
+}
+.Testimonials .curosal > div .info p::after
+{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    margin-left: 7px;
+    font-size: 18px;
+    color: #c3e8fa;
+}
+
+.Testimonials .curosal > div img
+{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin:24px auto
+}
+.Testimonials .curosal > div h4
+{
+    font-family:serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.Testimonials .curosal > div span
+{
+    font-style: italic
+}
+.owl-theme .owl-dots .owl-dot
+{
+    outline: 0
+}
+.owl-theme .owl-dots .owl-dot.active span
+{
+    background: #149ddd !important;
+}
+ .owl-theme .owl-dots .owl-dot span
+{
+    background:#aaa !important
+}
+
+/* ------------------ end eaight part Testimonials wep sit ------------------- */
+
+
+
+
+
+
+
+
+/* ------------------ start nigne part contact wep sit ------------------- */
+.Contact
+{
+    padding:60px 20px;
+    overflow: hidden;
+    background:#fefefe;
+}
+.Contact header h2
+{
+    font-weight:700;
+    font-family: "Raleway";
+    font-size:32px;
+    color:#173b6c;
+}
+.Contact header hr
+{
+    margin-left:0;
+    width:6%;
+    height:3px;
+    background:#149ddd
+}
+.Contact header p
+{
+    font-family: 'Open Sans';
+    font-size:17px;
+    margin-bottom: 30px
+}
+.Contact .row .adreses > div
+{
+    display: flex;
+}
+.Contact .row .adreses > div:hover i
+{
+    background:#149ddd;
+    color:white;
+}
+
+.Contact .row .adreses 
+{
+    padding:30px 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1)
+}
+.Contact .row .adreses > div i
+{
+    width:45px;
+    height:45px;
+    background:#dff3fc;
+    border-radius: 50%;
+    color:#149ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: 0.3s
+}
+.Contact .row .adreses > div .info h4
+{
+    font-family: "Raleway";
+    font-weight: 600;
+    color:#050d18;
+    font-size: 20px
+}
+.Contact .row .adreses > div .info p
+{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:#173b6c;
+    margin-bottom: 25px
+}
+.Contact .row .adreses >  iframe
+{
+    height:250px;
+    width:100%
+}
+.Contact .row .form 
+{
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    padding: 30px  30px
+}
+.Contact .row .form .input
+{
+    display:flex;
+    justify-content: space-between
+    
+}
+.Contact .row .form .input div
+{
+    width:49.5%
+}
+.Contact .row .form .input div label
+{
+    display:block;
+    font-family: "Open Sans";
+    
+}
+.Contact .row .form .input div input
+{
+    width:100%;
+    margin-bottom:20px;
+    padding: 7px 10px;
+    outline: 0
+}
+.Contact .row .form  label
+{
+    display:block;
+    font-family: "Open Sans";    
+}
+.Contact .row .form  > input
+{
+    width:100%;
+    padding: 7px 10px;
+    outline: 0;
+    margin-bottom: 20px
+}
+.Contact .row .form  > textarea
+{
+    width:100%;
+    resize: none;
+    height:202px
+}
+.Contact .row .form  > button
+{
+    width:145px;
+    padding: 10px;
+    background:#149ddd;
+    color:white;
+    font-weight: 600;
+    margin: auto;
+    display: block;
+    border:0;
+    text-transform: capitalize;
+    border-radius: 3px;
+    margin-top: 15px
+}
+.up-botton
+{
+    color:white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background:#149DDD;
+    text-align: center;
+    right:15px;
+    bottom: 15px;
+    position: fixed;
+    font-size:15px;
+    z-index: 400;
+    display: block !important;
+}
+.up-botton:hover
+{
+    text-decoration: none;
+    color:white
+}
+.up-botton i
+{
+    animation: uping 0.5s ease infinite;
+    line-height:42px
+}
+@keyframes uping
+{
+    0%
+    {
+        margin-top:0px;
+    }
+    100%
+    {
+        margin-top:-5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ end nigne part contact wep sit ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
